@@ -11,17 +11,17 @@
   "name": "Header group",
   "type": "header",
   "sections": {
-    "announcement-bar": {
-      "type": "announcement-bar",
-      "settings": {}
-    },
     "main": {
       "type": "header",
+      "settings": {}
+    },
+    "announcement-bar": {
+      "type": "announcement-bar",
       "settings": {}
     }
   },
   "order": [
-    "announcement-bar",
-    "main"
+    "main",
+    "announcement-bar"
   ]
 }
